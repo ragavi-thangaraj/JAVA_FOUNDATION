@@ -1,0 +1,156 @@
+Oracle Java Foundation 
+
+Name : Ragavi
+Date : Jan 27 2026
+EXAM CODE : 1Z0-811
+COURSE NAME : Java Foundation
+mail used : ragavit.22msc@kongu.edu
+Link : https://mylearn.oracle.com/ou/exam/java-foundations-1z0-811/117252/110680/170389
+
+
+
+
+What is Java?
+    Java was found in 1991 and officially released version 1.0 in 1995 its name that time was Ook. James Gosling is the father of Java. It was owned by Sun MicroSystem until 2010
+    After 2010 Java was undertaken by Oracle corporation. 
+      
+1. Describe the features of Java?
+
+       1. Platform independent - Can be complied on any OS 
+       2. Java is both compiler and interptreter Language
+       3. Robustness - It strictly checks for datatypes
+              example : 
+                     int a = 10;
+                     int b = "Raja";
+       4. Java Packages 
+              Libraries are imported as packages 
+              Syntax: import java.util.*;
+
+2. Describe the real-world applications of Java?
+
+       Java have three editions in real-world applications
+
+       1. Standart Edition(Java SE)
+        Used to develop Desktop Application like chrome, FireFox
+
+       2. Enterprice Edition
+        Used to develop Ecart Apps like Amazon, Flipkart
+
+       3. Micro Edition
+        Used to develop Mobile Apps like WhatsApp
+
+
+JAVA BASICS
+
+1. Describe the Java Development Kit (JDK) and the Java Runtime Environment (JRE) ?
+       1. JDK
+                     Java Development Kit is a simple toolkit for developers
+                     Things inside:
+                            • Javac → compiles .java → .class
+                            • Java (JVM launcher) → runs your program
+                            • Libraries → ready-made Java code
+                            • Tools → debugger, documentation generator, etc.
+                     We need JDK to :
+                            • To write Java program
+                            • To compile java program
+                            • Run java program 
+
+2. Describe the components of object-oriented programming?
+
+       Everything Should be written inside class 
+
+3. Describe the components of a basic Java program?
+
+       Three types: 
+              1. JDK
+                     Java Development Kit is a simple toolkit for developers
+                     Things inside:
+                            • Javac → compiles .java → .class
+                            • Java (JVM launcher) → runs your program
+                            • Libraries → ready-made Java code
+                            • Tools → debugger, documentation generator, etc.
+                     We need JDK to :
+                            • To write Java program
+                            • To compile java program
+                            • Run java program 
+                            
+              2. JRE 
+                     Java Runtime Environment 
+                     It’s the environment needed to run Java programs (but not create them).
+
+                     Think:
+                     JRE = JVM + Java libraries
+
+              3. JVM 
+                     Java Virtual Machine : Load Bytecode - Verify Bytecode - Execute Bytecode
+                     It’s a virtual computer inside real computer that runs Java programs.
+                     Java doesn’t run directly on Windows/Linux/Mac.It runs inside the JVM.
+
+                     code (.java)
+                            ↓ compile
+                     Bytecode (.class)
+                            ↓ run inside
+                     JVM
+                            ↓
+                     Program runs
+              
+              4. JIT 
+                     Just-in-time compiler It’s a part of the JVM that makes Java programs run faster.
+
+                     Without JIT (slow way)
+
+                     Normally JVM:
+                            • Reads bytecode
+                            • Interprets it line by line (slow)
+
+                     With JIT (smart way)
+
+                     JIT:
+                            • Takes frequently used code
+                            • Compiles it into machine code once
+                            • Runs it directly (very fast!)
+
+                     So JVM stops translating again and again.
+
+4.Compile and execute a Java program?
+
+
+       1. Compilation 
+       command : javac filename.java
+
+       2. Execution
+       During Execution a class file will be created for the java file 
+       Class name and File name are preferred to be same
+       command : java filename.java
+
+BASICS JAVA ELEMENTS
+
+WORKING WITH JAVA DATATYPES 
+
+1. Primitive datatypes
+        byte
+        short
+        int
+        float
+        double
+        long
+        char
+        boolean
+
+2. Non-Primitive datatypes
+       There are N number of non-primitive datatypesin java where every class act as Non-primitive datatype in java
+       Strings
+       Arrays
+       Objects
+
+
+
+
+
+
+
+
+
+    
+
+
