@@ -20,7 +20,9 @@ public class Reverse {
 }
 
 /*
+
 Enter the original string:  athik
 Original String: athik
 Reversed String: kihta
+
 */
